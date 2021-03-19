@@ -13,5 +13,8 @@ export const COLUMNS = [
     },
     {
         Header: 'Country'
+    },
+    {
+        Header: 'Phone'
     }
 ];
