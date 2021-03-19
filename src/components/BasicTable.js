@@ -13,6 +13,14 @@ export const BasicTable = () => {
         data
     });
 
+    const { 
+        getTableProps, 
+        getTableBodyProps,
+        headerGroups,
+        rows,
+        prepareRow
+    } = tableInstance;
+
     return (
         <table>
             <thead>
