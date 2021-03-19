@@ -24,9 +24,13 @@ export const BasicTable = () => {
     return (
         <table {...getTableProps()}>
             <thead>
-                <tr>
-                    <th></th>
-                </tr>
+                {
+                    headerGroups.map(headerGroup => {
+                        <tr>
+                            <th></th>
+                        </tr>
+                    })
+                }
             </thead>
             <tbody {...getTableBodyProps()}>
                 <tr>
