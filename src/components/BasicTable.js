@@ -29,7 +29,7 @@ export const BasicTable = () => {
                         <tr {...headerGroup.getHeaderGroupProps()}>
                             {
                                 headerGroup.headers.map( column => {
-                                    <th></th>
+                                    <th {...column.getHeaderGroupProps()}></th>
                                 })
                             }
                         </tr>
