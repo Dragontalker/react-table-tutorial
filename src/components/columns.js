@@ -11,6 +11,7 @@ export const COLUMNS = [
     },
     {
         Header: 'Last Name',
+        Footer: 'Last Name',
         accessor: 'last_name'
     },
     {
