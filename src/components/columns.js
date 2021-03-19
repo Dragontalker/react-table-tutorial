@@ -21,6 +21,7 @@ export const COLUMNS = [
     },
     {
         Header: 'Country',
+        Footer: 'Country',
         accessor: 'country'
     },
     {
