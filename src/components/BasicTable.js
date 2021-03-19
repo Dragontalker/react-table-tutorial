@@ -27,7 +27,11 @@ export const BasicTable = () => {
                 {
                     headerGroups.map(headerGroup => {
                         <tr {...headerGroup.getHeaderGroupProps()}>
-                            <th></th>
+                            {
+                                headerGroup.headers.map( column => {
+                                    <th></th>
+                                })
+                            }
                         </tr>
                     })
                 }
