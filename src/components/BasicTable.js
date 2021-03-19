@@ -22,7 +22,7 @@ export const BasicTable = () => {
     } = tableInstance;
 
     return (
-        <table>
+        <table {...getTableProps()}>
             <thead>
                 <tr>
                     <th></th>
