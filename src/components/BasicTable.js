@@ -2,6 +2,7 @@ import React, { useMemo } from 'react';
 import { useTable } from 'react-table';
 import MOCK_DATA from './MOCK_DATA.json';
 import { COLUMNS } from './columns';
+import './table.css';
 
 export const BasicTable = () => {
 
@@ -29,9 +30,7 @@ export const BasicTable = () => {
                         <tr {...headerGroup.getHeaderGroupProps()}>
                             {
                                 headerGroup.headers.map( column => {
-                                    <th {...column.getHeaderProps()}>
-                                        {column.render('Header')}
-                                    </th>
+                                    <th {...column.getHeaderProps()}>{column.render('Header')}</th>
                                 })
                             }
                         </tr>
@@ -40,12 +39,12 @@ export const BasicTable = () => {
             </thead>
             <tbody {...getTableBodyProps()}>
                 {
-                    rows.maps(row => {
+                    rows.map(row => {
                         prepareRow(row)
                         return (
                             <tr>
                                 {
-                                    rows.cells.map(cell => {
+                                    row.cells.map(cell => {
                                         return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
                                     })
                                 }
