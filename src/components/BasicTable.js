@@ -26,7 +26,7 @@ export const BasicTable = () => {
             <thead>
                 {
                     headerGroups.map(headerGroup => {
-                        <tr>
+                        <tr {...headerGroup.getHeaderGroupProps()}>
                             <th></th>
                         </tr>
                     })
