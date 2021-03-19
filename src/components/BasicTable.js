@@ -47,7 +47,11 @@ export const BasicTable = (props) => {
             <tfoot>
                 {footerGroups.map(footerGroup => {
                     <tr {...footerGroup.getFooterGroupProps()}>
-
+                        {footerGroup.headers.map(column => {
+                            <td>
+                                
+                            </td>
+                        })}
                     </tr>
                 })}
             </tfoot>
