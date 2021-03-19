@@ -8,7 +8,7 @@ export const BasicTable = () => {
     const columns = useMemo(() => COLUMNS, []);
     const data = useMemo(() => MOCK_DATA, []);
 
-    useTable({
+    const tableInstance = useTable({
         columns,
         data
     })
