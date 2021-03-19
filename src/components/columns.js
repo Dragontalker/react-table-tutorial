@@ -4,5 +4,8 @@ export const COLUMNS = [
     },
     {
         Header: 'First Name'
+    },
+    {
+        Header: 'Last Name'
     }
 ];
