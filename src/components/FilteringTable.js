@@ -13,7 +13,9 @@ export const FilteringTable = (props) => {
         headerGroups,
         footerGroups,
         rows,
-        prepareRow
+        prepareRow,
+        state,
+        setGlobalFilter
     } = useTable({
         columns,
         data
