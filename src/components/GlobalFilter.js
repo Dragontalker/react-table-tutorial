@@ -1,11 +1,12 @@
 import React from 'react';
+import './input.css';
 
 export const GlobalFilter = ({filter, setFilter}) => {
     return (
         <span>
-            Search: {' '}
             <input 
                 value={filter || ''}
+                placeholder={'Search table here...'}
                 onChange={e => setFilter(e.target.value)}
             />
         </span>
