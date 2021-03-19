@@ -16,6 +16,7 @@ export const BasicTable = (props) => {
         getTableProps, 
         getTableBodyProps,
         headerGroups,
+        footerGroups,
         rows,
         prepareRow
     } = tableInstance;
