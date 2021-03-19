@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { useTable } from 'react-table';
+import { useTable, useGlobalFilter } from 'react-table';
 import './table.css';
 
 export const FilteringTable = (props) => {
