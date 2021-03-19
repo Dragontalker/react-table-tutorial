@@ -8,7 +8,8 @@ export const COLUMNS = [
         accessor: 'first_name'
     },
     {
-        Header: 'Last Name'
+        Header: 'Last Name',
+        accessor: 'last_name'
     },
     {
         Header: 'Date of Birth'
