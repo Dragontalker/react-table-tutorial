@@ -37,7 +37,8 @@ export const BasicTable = () => {
                 {rows.map(row => {
                     prepareRow(row)
                     return (
-                        <tr> {row.cells.map(cell => {
+                        <tr {...row.getRowProps()}> 
+                            {row.cells.map(cell => {
                                 return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
                             })}
                         </tr>
