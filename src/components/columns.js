@@ -38,7 +38,8 @@ export const GROUPED_COLUMNS = [
         accessor: 'id'
     },
     {
-
+        Header: 'Name',
+        Footer: 'Name'
     },
     {
 
