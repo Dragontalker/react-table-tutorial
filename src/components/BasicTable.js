@@ -28,7 +28,7 @@ export const BasicTable = () => {
                     <th></th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody {...getTableBodyProps()}>
                 <tr>
                     <td></td>
                 </tr>
