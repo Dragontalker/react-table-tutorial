@@ -39,9 +39,16 @@ export const BasicTable = () => {
                 }
             </thead>
             <tbody {...getTableBodyProps()}>
-                <tr>
-                    <td></td>
-                </tr>
+                {
+                    rows.maps(row => {
+                        prepareRow(row)
+                        return (
+                            <tr>
+                                <td></td>
+                            </tr>
+                        )
+                    })
+                }
             </tbody>
         </table>
     )
