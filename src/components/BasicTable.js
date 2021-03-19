@@ -15,7 +15,9 @@ export const BasicTable = () => {
 
     return (
         <table>
-
+            <thead>
+                
+            </thead>
         </table>
     )
 }
