@@ -7,11 +7,6 @@ export const FilteringTable = (props) => {
     const columns = useMemo(() => props.columns, []);
     const data = useMemo(() => props.data, []);
 
-    const tableInstance = useTable({
-        columns,
-        data
-    });
-
     const { 
         getTableProps, 
         getTableBodyProps,
@@ -19,7 +14,11 @@ export const FilteringTable = (props) => {
         footerGroups,
         rows,
         prepareRow
-    } = tableInstance;
+    } = useTable({
+        columns,
+        data
+    }, useGlobalFilter);
+
 
     return (
         <table {...getTableProps()}>
