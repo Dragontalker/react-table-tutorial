@@ -14,8 +14,8 @@ export const BasicTable = () => {
     })
 
     return (
-        <div>
+        <table>
 
-        </div>
+        </table>
     )
 }
