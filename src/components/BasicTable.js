@@ -21,7 +21,9 @@ export const BasicTable = () => {
                 </tr>
             </thead>
             <tbody>
-                <tr></tr>
+                <tr>
+                    <td></td>
+                </tr>
             </tbody>
         </table>
     )
