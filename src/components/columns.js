@@ -33,12 +33,14 @@ export const COLUMNS = [
 
 export const GROUPED_COLUMNS = [
     {
-
+        Header: 'Id',
+        Footer: 'Id',
+        accessor: 'id'
     },
     {
 
     },
     {
-        
+
     }
 ];
