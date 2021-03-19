@@ -3,7 +3,6 @@ import { useTable, useSortBy } from 'react-table';
 import './table.css';
 
 export const SortingTable = (props) => {
-
     const columns = useMemo(() => props.columns, []);
     const data = useMemo(() => props.data, []);
 
@@ -28,11 +27,11 @@ export const SortingTable = (props) => {
                             <th {...column.getHeaderProps(column.getSortByToggleProps())}>
                                 {column.render('Header')}
                                 <span>
-                                {column.isSorted
-                                    ? column.isSortedDesc
-                                        ? ' 🔽'
-                                        : ' 🔼'
-                                    : ''}
+                                    {column.isSorted
+                                        ? column.isSortedDesc
+                                            ? ' 🔽'
+                                            : ' 🔼'
+                                        : ''}
                                 </span>
                             </th>
                         ))}   
