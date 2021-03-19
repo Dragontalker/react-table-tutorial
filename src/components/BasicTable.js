@@ -11,15 +11,15 @@ export const BasicTable = () => {
     const tableInstance = useTable({
         columns,
         data
-    })
+    });
 
     return (
         <table>
             <thead>
-
+                <tr></tr>
             </thead>
             <tbody>
-                
+                <tr></tr>
             </tbody>
         </table>
     )
