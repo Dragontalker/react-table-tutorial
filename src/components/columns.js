@@ -7,5 +7,8 @@ export const COLUMNS = [
     },
     {
         Header: 'Last Name'
+    },
+    {
+        Header: 'Date of Birth'
     }
 ];
