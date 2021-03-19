@@ -10,5 +10,8 @@ export const COLUMNS = [
     },
     {
         Header: 'Date of Birth'
+    },
+    {
+        Header: 'Country'
     }
 ];
