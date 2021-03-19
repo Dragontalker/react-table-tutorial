@@ -16,8 +16,11 @@ export const BasicTable = () => {
     return (
         <table>
             <thead>
-                
+
             </thead>
+            <tbody>
+                
+            </tbody>
         </table>
     )
 }
