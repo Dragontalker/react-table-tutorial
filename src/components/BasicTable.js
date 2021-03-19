@@ -44,6 +44,9 @@ export const BasicTable = (props) => {
                     )
                 })}
             </tbody>
+            <tfoot>
+                
+            </tfoot>
         </table>
     )
 }
