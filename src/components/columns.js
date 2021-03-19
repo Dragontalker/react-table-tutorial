@@ -30,3 +30,7 @@ export const COLUMNS = [
         accessor: 'phone'
     }
 ];
+
+export const GROUPED_COLUMNS = [
+
+];
