@@ -1,6 +1,6 @@
 import { BasicTable } from './components/BasicTable';
 import MOCK_DATA from './components/MOCK_DATA.json';
-import { COLUMNS } from './components/columns';
+import { COLUMNS, GROUPED_COLUMNS } from './components/columns';
 
 const App = () => {
   return (
