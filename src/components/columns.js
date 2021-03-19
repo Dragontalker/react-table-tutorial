@@ -4,7 +4,8 @@ export const COLUMNS = [
         accessor: 'id'
     },
     {
-        Header: 'First Name'
+        Header: 'First Name',
+        accessor: 'first_name'
     },
     {
         Header: 'Last Name'
