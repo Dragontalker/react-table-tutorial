@@ -28,7 +28,11 @@ export const SortingTable = (props) => {
                             <th {...column.getHeaderProps(column.getSortByToggleProps())}>
                                 {column.render('Header')}
                                 <span>
-                                    
+                                {column.isSorted
+                                    ? column.isSortedDesc
+                                        ? ' 🔽'
+                                        : ' 🔼'
+                                    : ''}
                                 </span>
                             </th>
                         ))}   

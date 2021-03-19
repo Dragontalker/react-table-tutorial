@@ -1,11 +1,12 @@
 import { BasicTable } from './components/BasicTable';
+import { SortingTable } from './components/SortingTable';
 import MOCK_DATA from './components/MOCK_DATA.json';
 import { COLUMNS, GROUPED_COLUMNS } from './components/columns';
 
 const App = () => {
   return (
     <div className="App">
-      <BasicTable columns={COLUMNS} data={MOCK_DATA}/>
+      <SortingTable columns={COLUMNS} data={MOCK_DATA}/>
     </div>
   );
 };
