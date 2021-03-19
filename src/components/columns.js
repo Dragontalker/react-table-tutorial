@@ -16,6 +16,7 @@ export const COLUMNS = [
     },
     {
         Header: 'Date of Birth',
+        Footer: 'Date of Birth',
         accessor: 'date_of_birth'
     },
     {
