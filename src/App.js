@@ -8,6 +8,6 @@ const App = () => {
       <BasicTable columns={COLUMNS} data={MOCK_DATA}/>
     </div>
   );
-}
+};
 
 export default App;
